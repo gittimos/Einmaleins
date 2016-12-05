@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "intent": "GetNewNumberIntent",
+      "slots": [
+        {
+          "name": "zahl",
+          "type": "ZAHL"
+        }
+      ]
+    },
+     {
+      "intent": "GetAnswerIntent",
+      "slots": [
+        {
+          "name": "zahl",
+          "type": "ZAHL"
+        }
+      ]
+    },
+    {
+      "intent": "GetNewExerciseIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    }
+  ]
+}

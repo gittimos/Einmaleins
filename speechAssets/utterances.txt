@@ -1,0 +1,10 @@
+GetNewNumberIntent Sage {zahl}
+GetAnswerIntent {zahl}
+GetAnswerIntent Ist es {zahl}
+GetNewExerciseIntent Neue Aufgabe
+GetNewExerciseIntent Aufgabe
+GetNewExerciseIntent Los
+GetNewExerciseIntent Start
+AMAZON.HelpIntent Hilfe
+AMAZON.StopIntent Ende
+AMAZON.StopIntent Stop
