@@ -46,5 +46,15 @@ var handlers = {
         var speechOutput = 'Ok, dann machen wir Schluss. Du hast ' + this.attributes['score'] + ' von ' + this.attributes['gamesPlayed'] + ' Aufgaben richtig gelöst.';
         var reprompt = 'Ok, dann machen wir Schluss.';
         this.emit(':tell', speechOutput, reprompt);
-    }
+    },
+    'HelpIntent': function () {
+        var speechOutput = 'Ich stelle dir Einmaleins-Aufgaben. Du sagst mir das Ergebnis und sich sage dir, ob das richtig war. Ich stelle dir solange Aufgaben, bis du sagst, dass du aufhören möchtest.';
+        var reprompt = 'Ich stelle dir solange Einmaleins-Aufgaben, bis du sagst, dass du aufhören möchtest.';
+        this.emit(':tell', speechOutput, reprompt);
+    },
+    'Unhandled': function () {
+        var speechOutput = 'Entschuldige, das verstehe ich leider nicht. Bitte sage eine Zahl, Hilfe oder Ende.';
+        var reprompt = 'Das verstehe ich leider nicht.';
+        this.emit(':ask', speechOutput, reprompt);
+    },
 };
