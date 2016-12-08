@@ -1,7 +1,11 @@
 {
   "intents": [
     {
-      "intent": "GetNewNumberIntent",
+      "intent": "StartIntent",
+      "slots": []
+    },
+    {
+      "intent": "AnswerIntent",
       "slots": [
         {
           "name": "zahl",
@@ -9,29 +13,12 @@
         }
       ]
     },
-     {
-      "intent": "GetAnswerIntent",
-      "slots": [
-        {
-          "name": "zahl",
-          "type": "ZAHL"
-        }
-      ]
-    },
     {
-      "intent": "GetNewExerciseIntent",
+      "intent": "StopIntent",
       "slots": []
     },
     {
-      "intent": "AMAZON.StopIntent",
-      "slots": []
-    },
-    {
-      "intent": "AMAZON.CancelIntent",
-      "slots": []
-    },
-    {
-      "intent": "AMAZON.HelpIntent",
+      "intent": "HelpIntent",
       "slots": []
     }
   ]

@@ -1,10 +1,31 @@
-GetNewNumberIntent Sage {zahl}
-GetAnswerIntent {zahl}
-GetAnswerIntent Ist es {zahl}
-GetNewExerciseIntent Neue Aufgabe
-GetNewExerciseIntent Aufgabe
-GetNewExerciseIntent Los
-GetNewExerciseIntent Start
-AMAZON.HelpIntent Hilfe
-AMAZON.StopIntent Ende
-AMAZON.StopIntent Stop
+StartIntent Starte Einmal eins
+StartIntent Beginne Einmal eins
+StartIntent Öffne Einmal eins
+StartIntent Lass uns anfangen
+StartIntent Fang an
+StartIntent Leg los
+StartIntent Start
+AnswerIntent {zahl}
+AnswerIntent Ist es {zahl}
+AnswerIntent Das ist {zahl}
+AnswerIntent Es ist {zahl}
+AnswerIntent Da kommt {zahl} raus
+AnswerIntent Ich denke {zahl}
+AnswerIntent Könnte es {zahl} sein
+AnswerIntent Ich vermute es ist {zahl}
+StopIntent Ich habe keine Lust mehr
+StopIntent Ende
+StopIntent Schluss
+StopIntent Das wars
+StopIntent Finito
+StopIntent Fertig
+StopIntent Hör auf
+StopIntent Ich möchte aufhören
+HelpIntent Hilfe
+HelpIntent Wie geht das
+HelpIntent Wie funktioniert das
+HelpIntent Was muss ich machen
+HelpIntent Erkläre mir wie das geht
+HelpIntent Erkläre mir wie das funktioniert
+HelpIntent Erkläre mir wie das gespielt wird
+HelpIntent Und nun
