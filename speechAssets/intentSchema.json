@@ -9,17 +9,21 @@
       "slots": [
         {
           "name": "zahl",
-          "type": "ZAHL"
+          "type": "AMAZON.NUMBER"
         }
       ]
     },
     {
-      "intent": "StopIntent",
-      "slots": []
+      "intent": "AMAZON.HelpIntent"
     },
     {
-      "intent": "HelpIntent",
-      "slots": []
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
     }
   ]
 }
