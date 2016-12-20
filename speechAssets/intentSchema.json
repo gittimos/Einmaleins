@@ -1,10 +1,6 @@
 {
   "intents": [
     {
-      "intent": "StartIntent",
-      "slots": []
-    },
-    {
       "intent": "AnswerIntent",
       "slots": [
         {
